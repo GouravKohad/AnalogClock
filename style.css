@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.watchBody{
+  position: relative;
+  display: flex;
+}
+.watchBody img{
+  width: 50vh;
+  height: 50vh;
+}
+.sec{
+  width: .5vw;
+  height: 17vh;
+  background: black;
+  top: 8vh;
+  position: absolute ;
+  left: 24.9vh;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+  
+}
+.min {
+  width: .8vw;
+  height: 14vh;
+  background: black;
+  top: 11vh;
+  position: absolute;
+  left: 24.8vh;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+  
+}
+.hour {
+  width: 1vw;
+  height: 12vh;
+  background: black;
+  top: 13vh;
+  position: absolute;
+  left: 24.7vh;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+}
