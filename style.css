@@ -27,7 +27,8 @@
   left: 24.9vh;
   transform-origin: bottom;
   transform: rotate(0deg);
-  
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 .min {
   width: .8vw;
@@ -38,7 +39,8 @@
   left: 24.8vh;
   transform-origin: bottom;
   transform: rotate(0deg);
-  
+  border-top-left-radius: 50%;
+border-top-right-radius: 50%;
 }
 .hour {
   width: 1vw;
@@ -49,4 +51,6 @@
   left: 24.7vh;
   transform-origin: bottom;
   transform: rotate(0deg);
+  border-top-left-radius: 50%;
+border-top-right-radius: 50%;
 }
